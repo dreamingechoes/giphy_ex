@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/dreamingechoes/giphy_ex.svg?style=svg)](https://circleci.com/gh/dreamingechoes/giphy_ex)
+[![codecov](https://codecov.io/gh/dreamingechoes/giphy_ex/branch/master/graph/badge.svg)](https://codecov.io/gh/dreamingechoes/giphy_ex)
+
 # GiphyEx
 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://hexdocs.pm/giphy_ex/0.1.0/)
@@ -12,7 +15,7 @@ Add ``giphy_ex`` to your dependencies in your ``mix.exs``:
 ```elixir
 defp deps do
   [
-    { :giphy_ex, "~> 0.1" }
+    { :giphy_ex, "~> 0.1.0" }
   ]
 end
 ```
