@@ -1,8 +1,8 @@
 # GiphyEx
 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://hexdocs.pm/giphy_ex/0.1.0/)
-[![Hex.pm](https://img.shields.io/hexpm/v/giphy_ex.svg)](https://hex.pm/packages/giphy_ex)
 [![Build Status](https://circleci.com/gh/dreamingechoes/giphy_ex.svg?style=shield)](https://circleci.com/gh/dreamingechoes/giphy_ex)
+[![Hex.pm](https://img.shields.io/hexpm/v/giphy_ex.svg)](https://hex.pm/packages/giphy_ex)
 [![codecov](https://codecov.io/gh/dreamingechoes/giphy_ex/branch/master/graph/badge.svg)](https://codecov.io/gh/dreamingechoes/giphy_ex)
 
 Just a simple wrapper for the Giphy's API in order to make easy to get the more awesome gifs of the internet. Absolutely silly package made for fun.
