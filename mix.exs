@@ -13,7 +13,13 @@ defmodule GiphyEx.Mixfile do
       deps: deps(),
       docs: [
         main: "GiphyEx"
-      ]
+      ],
+      preferred_cli_env: [
+        "coveralls": :test,
+        "coveralls.html": :test,
+        "coveralls.json": :test,
+      ],
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
@@ -28,8 +34,9 @@ defmodule GiphyEx.Mixfile do
     [
       { :earmark, "~> 0.1", only: :dev },
       { :ex_doc, "~> 0.11", only: :dev },
-      { :exjsx, "~> 3.2.0", app: false },
-      { :httpoison, "~> 0.6" }
+      { :exjsx, "~> 3.2.0", app: false, override: true },
+      { :httpoison, "~> 0.6" },
+      { :excoveralls, "~> 0.5.7", only: :test }
     ]
   end
 
