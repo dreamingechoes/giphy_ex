@@ -22,6 +22,6 @@ dependencies:
 
 test:
   override:
-    - mix do compile --warnings-as-errors, coveralls.json
+    - mix do test --cover, coveralls.json
   post:
     - bash <(curl -s https://codecov.io/bash)
