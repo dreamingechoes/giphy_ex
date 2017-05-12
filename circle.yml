@@ -3,7 +3,7 @@ machine:
   environment:
     PATH: "$HOME/.asdf/bin:$HOME/.asdf/shims:$PATH"
     MIX_ENV: ci
-    GIPHY_API_KEY: dc6zaTOxFJmzC 
+    GIPHY_API_KEY: dc6zaTOxFJmzC
 
 dependencies:
   cache_directories:
@@ -24,5 +24,6 @@ dependencies:
 test:
   override:
     - mix test
+    - mix coveralls.circle
   post:
     - bash <(curl -s https://codecov.io/bash)
