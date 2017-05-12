@@ -22,6 +22,6 @@ dependencies:
 
 test:
   override:
-    - mix coveralls.circle
+    - mix test
   post:
     - bash <(curl -s https://codecov.io/bash)
