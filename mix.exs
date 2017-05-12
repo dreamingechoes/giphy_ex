@@ -36,7 +36,7 @@ defmodule GiphyEx.Mixfile do
       { :ex_doc, "~> 0.11", only: :dev },
       { :exjsx, "~> 3.2.0", app: false, override: true },
       { :httpoison, "~> 0.6" },
-      { :excoveralls, "~> 0.5.7", only: :test }
+      { :excoveralls, "~> 0.5.7" }
     ]
   end
 
