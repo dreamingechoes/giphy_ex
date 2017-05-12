@@ -24,6 +24,4 @@ test:
   override:
     - mix do compile --warnings-as-errors, coveralls.json
   post:
-    - mkdir -p $CIRCLE_ARTIFACTS/tests
-    - mv cover/ $CIRCLE_ARTIFACTS/tests/cover
     - bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
